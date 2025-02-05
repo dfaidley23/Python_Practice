@@ -8,6 +8,7 @@ def add_todo():
 
 todos = functions.get_todos()
 
+# st.set_page_config(layout="centered")
 st.title("My Todo App")
 st.subheader("This is my todo app")
 st.write("app text here")
